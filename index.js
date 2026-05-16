@@ -49,9 +49,9 @@ function addGamesToPage(games) {
             >
             <h1>${game.name}</h1>
             <h3>${game.description}</h3>
-            <h4>Pledged: $ ${game.pledged}</h6>
-            <h4>Goal: $ ${game.goal}</h6>
-            <h4>Percentage to goal: ${Math.round(game.pledged / game.goal * 100.0)}%</h6> 
+            <h4>Pledged: $ ${game.pledged}</h4>
+            <h4>Goal: $ ${game.goal}</h4>
+            <h4>Percentage to goal: ${Math.round(game.pledged / game.goal * 100.0)}%</h4> 
 
         `;
 
