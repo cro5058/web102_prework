@@ -62,6 +62,18 @@ body {
     box-shadow: 0 0 30px lightblue;
 }
 
+/* Challenge #2 ---------------------- */
+.stats-container {
+    display: flex;
+    align-items: flex-start;
+}
+
+.stats-container:hover {
+    cursor: pointer;
+    box-shadow: 0 0 30px lightblue;
+}
+/* ----------------------------------- */
+
 #button-container {
     text-align: center;
 }
