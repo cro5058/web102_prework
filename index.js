@@ -47,11 +47,13 @@ function addGamesToPage(games) {
                 src="${game.img}" 
                 alt="image for ${game.name}"
             >
-            <h1>${game.name}</h1>
-            <h3>${game.description}</h3>
-            <h4>Pledged: $ ${game.pledged}</h4>
-            <h4>Goal: $ ${game.goal}</h4>
-            <h4>Percentage to goal: ${Math.round(game.pledged / game.goal * 100.0)}%</h4> 
+            <h2>${game.name}</h2>
+            <h4>${game.description}</h4>
+            <h5>Pledged: $ ${game.pledged}</h5>
+            <h5>Goal: $ ${game.goal}</h5>
+            <h5>Progress to goal: ${
+                Math.round(game.pledged / game.goal * 100.0) >= 100 ? "Over 100" : Math.round(game.pledged / game.goal * 100.0)
+            }%</h5> 
 
         `;
 
@@ -94,7 +96,7 @@ const totalRaised = GAMES_JSON.reduce(
 )
 
 // set inner HTML using template literal
-raisedCard.innerHTML = totalRaised.toLocaleString('en-US');
+raisedCard.innerHTML = '$' + totalRaised.toLocaleString('en-US');
 
 // grab number of games card and set its inner HTML
 const gamesCard = document.getElementById("num-games");
@@ -173,14 +175,14 @@ let fundedCount = GAMES_JSON.reduce(
 );
 
 let unfundedString = `
-    A total of $${raisedCard.innerHTML} has been raised for 
+    A total of ${raisedCard.innerHTML} has been raised for 
     ${GAMES_JSON.length} ${GAMES_JSON.length !== 1? 'games' : 'game'}.\n
     Currently, ${unfundedCount} game${unfundedCount !== 1 ? 's remain' : ' remains'} unfunded.\n
     We need your help to fund these amazing games!
 `;
 
 // create a new DOM element containing the template string and append it to the description container
-let unfundedElement = document.createElement("p")
+let unfundedElement = document.createElement("h3")
 unfundedElement.innerHTML = unfundedString;
 descriptionContainer.appendChild(unfundedElement);
 
