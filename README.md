@@ -37,7 +37,7 @@ GIF created with [ScreenToGif](https://www.screentogif.com/)
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+The most challenging part of building the app was styling the CSS at the end, specifically the best hierarchy for the selectors. I found that CSS allows effects to be achieved in multiple ways, some of which are better than others.
 
 ## License
 
