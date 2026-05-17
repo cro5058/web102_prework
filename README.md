@@ -25,10 +25,8 @@ The following **optional** features are implemented:
 ## Video Walkthrough
 
 Here's a walkthrough of implemented features:
-
-<img src='https://imgur.com/a/1xC3V7B' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-
-<blockquote class="imgur-embed-pub" lang="en" data-id="a/1xC3V7B"  ><a href="//imgur.com/a/1xC3V7B">CodePath WEB102 Prework</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+<!--<img src='https://imgur.com/a/1xC3V7B' title='Video Walkthrough' width='' alt='Video Walkthrough' /> -->
+<a href="//imgur.com/a/1xC3V7B">CodePath WEB102 Prework</a>
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with [ScreenToGif](https://www.screentogif.com/)
