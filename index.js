@@ -49,8 +49,8 @@ function addGamesToPage(games) {
             >
             <h2>${game.name}</h2>
             <h4>${game.description}</h4>
-            <h5>Pledged: $ ${game.pledged}</h5>
-            <h5>Goal: $ ${game.goal}</h5>
+            <h5>Pledged: $${game.pledged.toLocaleString('en-US')}</h5>
+            <h5>Goal: $${game.goal.toLocaleString('en-US')}</h5>
             <h5>Progress to goal: ${
                 Math.round(game.pledged / game.goal * 100.0) >= 100 ? "Over 100" : Math.round(game.pledged / game.goal * 100.0)
             }%</h5> 
