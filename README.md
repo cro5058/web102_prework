@@ -19,7 +19,7 @@ The following **optional** features are implemented:
 
 * ✅ The website has a navbar to quickly link users to the welcome section, statistics, and games list.
 * ✅ At the end of the games list, there is a "Back to Top" button for convenience.
-* ✅ The website's color scheme, borrowed from [Coolors](https://coolors.co/palette/e63946-f1faee-a8dadc-457b9d-1d3557) is now more attractive and responsive, with higher contrast for better readability.
+* ✅ The website's color scheme, borrowed from [Coolors](https://coolors.co/palette/e63946-f1faee-a8dadc-457b9d-1d3557), is now more attractive and responsive, with higher contrast for better readability.
 * ✅ Buttons and links change color when highlighted and clicked for better responsiveness and feedback to the user.
 
 ## Video Walkthrough
@@ -31,7 +31,6 @@ Here's a walkthrough of implemented features:
 <blockquote class="imgur-embed-pub" lang="en" data-id="a/1xC3V7B"  ><a href="//imgur.com/a/1xC3V7B">CodePath WEB102 Prework</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
 
 <!-- Replace this with whatever GIF tool you used! -->
-Link to GIF on imgur: <a href="https://imgur.com/a/1xC3V7B">https://imgur.com/a/1xC3V7B</a>
 GIF created with [ScreenToGif](https://www.screentogif.com/)
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
